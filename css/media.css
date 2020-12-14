@@ -1,0 +1,284 @@
+@media (max-width: 1050px) {
+  .wrapper {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .logo-name > small {
+    display: none;
+  }
+  .video-title {
+    padding: 0 10px;
+  }
+  .data {
+    display: none;
+  }
+  .video-title {
+    font-size: 38px;
+  }
+  .list {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 920px) {
+  .wrapper {
+    padding: 0;
+  }
+  header {
+    padding: 0;
+  }
+  .header {
+    background: #f2c306;
+    height: 62px;
+  }
+  .home-logo {
+    width: 186px;
+    background: rgb(70, 70, 70);
+    background: linear-gradient(
+      0deg,
+      rgba(70, 70, 70, 1) 0%,
+      rgba(97, 97, 97, 1) 89%
+    );
+    padding: 11px 22px 12px 12px;
+  }
+  .logo-name {
+    font-size: 19px;
+    margin: 14px 0 0 7px;
+  }
+  .logo-icon {
+    background: url("../img/mobile-sprite.png") no-repeat 0 0;
+    width: 40px;
+    height: 39px;
+  }
+  .header-nav {
+    background: none;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .header-nav > li {
+    width: 100%;
+    height: 100%;
+    padding: 25px 0 0 55px;
+  }
+
+  .header-nav > li:nth-child(3n) {
+    padding: 25px 0 0 42px;
+  }
+
+  .header-nav > li:nth-child(2n) {
+    min-width: 134px; 
+    border-left: 1px solid #d9af05;
+    border-right: 1px solid #d9af05;
+    padding: 25px 0 0 39px;
+  }
+
+  .header-nav-link {
+    font-size: 19px;
+  }
+  .carousel {
+    margin: 0;
+  }
+  .arrow {
+    display: none;
+  }
+  .video-title {
+    display: none;
+  }
+  .first-video-player {
+    width: 100%;
+    height: 327px;
+  }
+  .first-video-player > img {
+    width: 100%;
+    height: 100%;
+  }
+  .main-nav-bg{
+     position: relative;
+  }
+  .main-nav-bg:before{
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      background: #fff;
+      opacity:0.6;
+      height: 9px;
+      top: -9px;
+  }
+
+  .main-nav-bg::after{
+   content: "";
+   display: block;
+   position: absolute;
+   width: 100%;
+   background: #fff;
+   opacity:0.6;
+   height: 4px;
+   top: -4px;
+}
+
+  .main-nav {
+    width: 100%;
+    height: 166px;
+    padding: 29px 63px 0 18px;
+    align-items: baseline;
+  }
+  .cloud {
+    background: url("../img/mobile-sprite.png") no-repeat 0 -55px;
+    width: 89px;
+    height: 61px;
+  }
+  .leaf {
+    background: url("../img/mobile-sprite.png") no-repeat -105px -55px;
+    width: 67px;
+    height: 69px;
+  }
+  .paper-plane {
+    background: url("../img/mobile-sprite.png") no-repeat -202px -55px;
+    width: 68px;
+    height: 69px;
+  }
+  .main-nav-link {
+    font-size: 23px;
+  }
+  .first-section {
+    background: none;
+    padding: 15px 0 0 0;
+    box-shadow: none;
+  }
+  h2 {
+    display: none;
+  }
+  .first-section-content-items {
+    margin: 0;
+  }
+  .text-video-content {
+    width: 100%;
+  }
+  .text-content {
+    width: 50%;
+    margin: 0 0 0 9px;
+    height: 232px;
+  }
+  .text-content > p {
+    width: 100%;
+    height: 232px;
+    font-size: 28px;
+    padding: 14px 25px 25px 25px;
+    line-height: 33px;
+    letter-spacing: 0;
+  }
+  .video-content {
+    width: 50%;
+    margin: 0 9px 0 9px;
+    height: 232px;
+  }
+  .video-content > img {
+    width: 100%;
+    height: 232px;
+  }
+  .twitter-box {
+    width: 100%;
+    background: #f5c507;
+    margin-top: 9px;
+  }
+
+  .twitter-logo {
+    background: url("../img/mobile-sprite.png") no-repeat -341px -67px;
+    width: 159px;
+    height: 133px;
+  }
+
+  .twitter-box > p {
+    display: none;
+  }
+
+  .twitter-box>.mark {
+    display: none;
+  }
+
+  .messages {
+    display: flex;
+  }
+  .slider {
+    display: none;
+  }
+  .second-section {
+    padding: 39px 19px 55px 19px;
+  }
+
+  .second-section-content {
+    margin: 79px 0 0 11px;
+  }
+
+  h1 {
+    font-size: 39px;
+    text-align: left;
+  }
+  .list {
+    display: none;
+  }
+  .footer {
+    padding: 0 65px;
+  }
+  .footer-logo {
+    background: url("../img/mobile-sprite.png") no-repeat -218px -1px;
+    width: 31px;
+    height: 31px;
+  }
+  .footer-name {
+    font-size: 16px;
+  }
+  .author {
+    display: none;
+  }
+}
+@media (max-width: 639px){
+   .hamburger-button{
+      display: block;
+   }
+   .header-nav{
+      display: none;
+   }
+   .open-menu{
+      display: flex;
+      position: absolute;
+      top: 62px;
+      background: #fff;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      z-index: 1;
+      max-height: 300px;
+   }
+   .main-nav{
+      height: 100%;
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+   }
+   .main-nav-item{
+      padding: 25px 0;
+   }
+   .text-video-content{
+      flex-direction: column;
+   }
+   .text-content{
+      width: 100%;
+      margin: 0 0 9px 0;
+   }
+   .video-content{
+      width: 100%;
+      margin: 0 ;
+   }
+   .tech-pics{
+      flex-direction: column;
+      align-items: center;
+   }
+   .pc{
+      margin-bottom: 15px;
+   }
+
+}
